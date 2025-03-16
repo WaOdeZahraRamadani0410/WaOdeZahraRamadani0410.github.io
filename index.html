@@ -3,56 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Pemrograman Berorientasi Platform</h1>
-    <h2>Data Pribadi</h2>
-    <ol>
-        <li>Nama : Wa Ode Zahra Ramadani</li>
-        <li>Hobi : Nonton Drakor</li>
-        <li>Alamat : Jl. Panglima Polim</li>
-        <li>Teman : Pingky</li>
-        <li>Pekerjaan : Mahasiswi</li>
-        <li>Cita-cita : Jadi Orang Kaya</li>
-    </ol>
-    <h2>Portofolio</h2>
-    <ol>
-        <li>belajar rajin setiap saat</li>
-    </ol>
+    <header>
+        <h1>Wa Ode Zahra Ramadani</h1>
+        <p>Web Developer | UI/UX Designer</p>
+    </header>
+    <section class="profile">
+        <img src="profile.jpg" alt="Foto Profil">
+        <p><strong>Email:</strong> email@example.com</p>
+        <p><strong>Telepon:</strong> 0812-3456-7890</p>
+    </section>
+    <section class="skills">
+        <h2>Keterampilan</h2>
+        <ul id="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <button onclick="tambahSkill()">Tambah Skill</button>
+    </section>
+    <script src="script.js"></script>
 </body>
-<div>
-    <table border="1">
-        <tr>
-          <th>Nama</th>
-          <th>Usia</th>
-          <th>Kota</th>
-        </tr>
-        <tr>
-          <td>falah</td>
-          <td>20</td>
-          <td>salangga</td>
-        </tr>
-        <tr>
-          <td>pingky</td>
-          <td>20</td>
-          <td>mades</td>
-        </tr>
-      </table>
-</div>
-<div>
-    <h2>Formulir</h2>
-    <form onsubmit="handleSubmit(event)">
-        <label for="nama">Nama:</label>
-        <input type="text" id="nama" name="nama" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <input type="submit" value="Kirim">
-    </form>
-</div>
-<div>
-    <img src="fotoo.jpg" alt="Gambar dari folder proyek" width="300">
-</div>
 </html>
