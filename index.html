@@ -3,28 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Saya</title>
+    <title>Wa Ode Zahra Ramadani</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Wa Ode Zahra Ramadani</h1>
-        <p>Web Developer | UI/UX Designer</p>
+        <h1 class="title">Wa Ode Zahra Ramadani</h1>
+        <nav class="navigation">
+            <a href="index.html">Beranda</a>
+            <a href="about.html">Tentang Saya</a>
+            <a href="education.html">Pendidikan</a>
+            <a href="contact.html">Hubungi Saya</a>
+        </nav>
     </header>
-    <section class="profile">
-        <img src="profile.jpg" alt="Foto Profil">
-        <p><strong>Email:</strong> email@example.com</p>
-        <p><strong>Telepon:</strong> 0812-3456-7890</p>
-    </section>
-    <section class="skills">
-        <h2>Keterampilan</h2>
-        <ul id="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        <button onclick="tambahSkill()">Tambah Skill</button>
-    </section>
-    <script src="script.js"></script>
+    <main>
+        <section class="home-content">
+            <div class="text">
+                <h2>Halo,</h2>
+                <h1>Saya Wa Ode Zahra Ramadani</h1>
+                <hr />
+                <p>Saya adalah mahasiswi Ilmu Komputer angkatan 2023 yang tertarik dengan pengembangan web, basis data, dan teknologi digital. Saya senang belajar hal baru dan mengembangkan solusi yang bermanfaat.</p>
+                <div class="buttons-wrapper">
+                    <a href="about.html" class="btn more-info">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="profile.jpg" alt="Wa Ode Zahra Ramadani" id="profile-pic">
+                <div class="role-wrapper">
+                    <span class="role">Mahasiswi Ilmu Komputer</span>
+                </div>
+                <div class="icons">
+                    <a href="mailto:waodezahrar@gmail.com" target="_blank"><img src="email.png" alt="Email" class="icon"></a>
+                    <a href="https://www.instagram.com/rmdniii.0410/" target="_blank"><img src="ig.png" alt="Instagram" class="icon"></a>
+                    <a href="https://wa.me/6285394034676" target="_blank"><img src="wa.png" alt="WhatsApp" class="icon"></a>
+                    <a href="https://github.com/WaOdeZahraRamadani0410"><img src="github.png" alt="Github" class="icon"></a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
