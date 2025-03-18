@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hubungi</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="about.html">Tentang</a>
+            <a href="education.html">Pendidikan</a>
+            <a href="contact.html">Hubungi</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Hubungi Saya</h2>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Tujuan:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
